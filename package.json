@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "eslint": "^7.5.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prefer-arrow": "^1.2.1",
+    "eslint-plugin-unicorn": "^21.0.0",
+    "iitcpluginkit": "^1.1.1"
+  },
+  "license": "Unlicense",
+  "scripts": {
+    "build": "yarn build:dev",
+    "build:dev": "yarn ipk build:dev",
+    "build:prod": "yarn ipk build:prod",
+    "start": "yarn ipk fileserver",
+    "autobuild": "yarn ipk autobuild"
+  }
+}
