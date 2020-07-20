@@ -2,8 +2,9 @@
   "name": "IITC plugin: ImageOverlay2",
   "id": "iitc_plugin_ImageOverlay2",
   "category": "Draw",
-  "description": "Put an image in your map",
+  "description": "Add an image to your map.",
   "author": "Hevne",
   "entry": "src/Main.ts",
+  "downloadURL": "https://github.com/McBen/IITCPluginKit_Imageoverlay/raw/master/dist/iitc_plugin_ImageOverlay2.user.js",
   "minimize": false
 }
